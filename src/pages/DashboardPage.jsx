@@ -4,7 +4,7 @@ export const DashboardPage = () => {
   return (
     <div className="flex space-x-1 min-h-screen">
       <SidebarComponent />
-      <div className="bg-slate-500 w-4/5">
+      <div className="bg-slate-500 w-4/5 ">
         <div className="p-6">
         <h1>Dashboard</h1>
         </div>
