@@ -1,14 +1,24 @@
 import { SidebarComponent } from "../components/Sidebar/SidebarComponent";
+import { CardLgComponent } from "../components/Card/CardLgComponent";
+import { CardXlComponent } from "../components/Card/CardXlComponent";
+import { CardLg2Component } from "../components/Card/CardLg2Component";
 
-export const DashboardPage = () => {
+export const DashboardPage = () =>
+{
   return (
-    <div className="flex space-x-0 min-h-screen">
+    <div className="flex ">
       <SidebarComponent />
-      <div className="bg-slate-500 w-4/5 ">
-        <div className="p-6">
-        <h1>Dashboard</h1>
+      <div className="bg-slate-200 w-full rounded-2xl p-10">
+        <div className="flex  ">
+          <CardLgComponent />
+          <CardLg2Component />
+          
         </div>
-        
+        <div className="">
+        <CardXlComponent/>
+        </div>
+
+
       </div>
     </div>
   );

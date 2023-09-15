@@ -24,12 +24,12 @@ export const NavbarComponent = () =>
                         </div>
                     </div>
                     <div className="w-full max-w-xs mx-auto">
-                        <div className="flex items-stretch text-purple-400 ">
+                        <div className="flex items-stretch text-black ">
                             <input
                                 type="search"
                                 name="search"
                                 placeholder="Search"
-                                className="bg-slate-200 h-10 px-5 pr-40 rounded-l-xl text-sm focus:outline-purple-300  "
+                                className="bg-slate-200 h-14 px-5 pr-40 rounded-l-xl text-sm  focus:outline-purple-300  "
                             />
                             <button className="bg-purple-200 hover:bg-purple-200 rounded-r-xl p-2"><BsSearch /></button>
                         </div>
