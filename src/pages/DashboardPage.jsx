@@ -1,4 +1,5 @@
 import { SidebarComponent } from "../components/Sidebar/SidebarComponent";
+import { CardLgComponent } from "../components/Card/CardLgComponent";
 
 export const DashboardPage = () => {
   return (
@@ -6,7 +7,7 @@ export const DashboardPage = () => {
       <SidebarComponent />
       <div className="bg-slate-200 w-4/5 rounded-2xl">
         <div className="p-10">
-        <h1>Dashboard</h1>
+        <CardLgComponent/>
         </div>
         
       </div>
