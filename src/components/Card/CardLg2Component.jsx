@@ -4,7 +4,7 @@ import { HiMiniArrowDownLeft } from "react-icons/hi2";
 export const CardLg2Component = () =>
 {
     return (
-        <div className="bg-blue-500 w-1/3 rounded-2xl  text-white " >
+        <div className="cardTwo bg-blue-500 rounded-2xl  text-white " >
             <div className="flex justify-between p-6 ">
                 <button className="bg-blue-900  text-2xl rounded-lg  p-2"><IoBagHandleOutline /></button>
                 <div>
