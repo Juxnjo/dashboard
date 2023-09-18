@@ -6,20 +6,30 @@
   display: block;
 }
 
-.barStats{
-  width: 75%;
+.barStats {
+  width: 72.5%;
 }
 
-.cardOne{
+.cardOne {
   width: 35%;
-  margin-right: 5%;
+  margin-right: 2.5%;
 }
 
-.cardTwo{
+.cardTwo {
   width: 35%;
+  margin-right: 2.5%;
 }
 
-.cardThree{
+.cardThree {
+  width: 22.5%;
+  margin-right: 2.5%;
+  height: fit-content;
+  margin-bottom: 2.5%;
+}
 
-  width: 20%;
+.cardFour{
+  width: 22.5%;
+  margin-right: 2.5%;
+  height: fit-content;
+  
 }
