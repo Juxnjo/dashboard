@@ -15,8 +15,11 @@ export const DashboardPage = () =>
           <CardLg2Component />
         </div>
         <CardXlComponent />
-        <CardSmComponent/>
+        <div className=""> 
+      <CardSmComponent />
+    </div>
       </div>
+
     </div>
   );
 }
