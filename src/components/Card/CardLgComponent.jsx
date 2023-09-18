@@ -7,7 +7,7 @@ export const CardLgComponent = () =>
 {
     return (
         
-            <div className="bg-purple-700 w-1/3 rounded-2xl text-white " >
+            <div className="cardOne bg-purple-700 rounded-2xl text-white " >
                 <div className="flex justify-between p-6 text-2xl ">
                     <button className="bg-purple-900 rounded-lg  p-2"><TbCash /></button>
                     <button className="bg-purple-500 rounded-lg  p-2"><BsThreeDots /></button>

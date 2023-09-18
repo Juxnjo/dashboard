@@ -5,3 +5,16 @@
 .dropdown:hover .dropdown-menu {
   display: block;
 }
+
+.barStats{
+  width: 75%;
+}
+
+.cardOne{
+  width: 35%;
+  margin-right: 5%;
+}
+
+.cardTwo{
+  width: 35%;
+}
